@@ -89,8 +89,8 @@ main h2 {
 
 main {
     background-color: white;
-    padding: 0.5px;
-    width: 800px;
+    padding: 20px;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-top: 13px;
@@ -112,10 +112,17 @@ body {
     line-height: 2em;
 }
 
- img {
+ main img {
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 
