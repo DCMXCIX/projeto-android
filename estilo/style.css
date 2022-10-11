@@ -83,6 +83,7 @@ main h2 {
     color: rgb(255, 255, 255);
     font-family: 'android', sans-serif;
     padding: 8px;
+    text-align: center;
     text-indent: 10px;
     font-weight: normal;
 }
